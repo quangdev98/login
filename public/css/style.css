@@ -1,0 +1,11 @@
+.wrap-form{
+	width: 500px;
+	margin:0 auto;
+	padding-top: 100px
+}
+input, input:focus, button, button:focus{
+	outline: none;
+	outline-style: none;
+	outline-width: 0;
+	box-shadow: none!important;
+}

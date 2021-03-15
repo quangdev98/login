@@ -30,7 +30,7 @@ class AdminCreateReuest extends FormRequest
         ];
     }
 
-    public function message(){
+    public function messages(){
         return [
             'email.required'=>'Bạn chưa nhập Email',
             'password.required'=>'Bạn chưa nhập password'
